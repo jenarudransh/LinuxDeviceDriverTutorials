@@ -1,0 +1,1 @@
+savedcmd_passing_arguments.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T /usr/src/linux-headers-6.14.0-33-generic/scripts/module.lds -o passing_arguments.ko passing_arguments.o passing_arguments.mod.o .module-common.o
